@@ -1,5 +1,6 @@
 {
   "files": [],
+  "types": ["vuex/types"],
   "references": [
     {
       "path": "./tsconfig.node.json"
@@ -7,5 +8,9 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "noImplicitAny": false
+  }
 }
